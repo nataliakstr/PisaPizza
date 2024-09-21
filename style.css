@@ -13,11 +13,7 @@
     padding-top: 66px;
 }
 
-@media (max-width: 767px) {
-    .welcome {
-        font-size: 3rem; /* Valor mínimo para dispositivos menores */
-    }
-}
+
 
 /*  NAVBAR   */
 
