@@ -298,3 +298,12 @@
         padding-right: 50px; 
     }
 }
+
+
+.main-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
