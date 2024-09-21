@@ -1,23 +1,20 @@
-/* ------------------------------------------------------------------
-GERAIS 
-*/
+/*          GERAIS                */
 
    body {
     padding-top: 20px; 
     background-color: #f3f0e7;
     color: #343a40;
-    
-    
 }
 
-.welcome {          /* bem vindo, pagina inicial */
+
+.welcome {            
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     padding-top: 66px;
 }
 
-/* ------------------------------------------------------------------
-   NAVBAR                                               */
+
+/*         NAVBAR                 */
 
 .navbar {
     position: fixed;
@@ -47,8 +44,7 @@ GERAIS
     background: #fff !important;
 }
 
-/* ------------------------------------------------------------------
-  PAG SOBRE - NOSSA HISTORIA                */
+/*     PAG SOBRE - NOSSA HISTORIA                */
 
   #nossa-historia {
     font-size: 2.5rem; 
@@ -58,9 +54,8 @@ GERAIS
     margin-bottom: 30px; 
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-
-
 }
+
 
 .img-fluid {
     max-width: 100%; 
@@ -84,8 +79,7 @@ GERAIS
 
 
 
-/* ------------------------------------------------------------------
- CARDAPIO                                       */
+/*           CARDAPIO                  */
 
 
   .custom-heading {
@@ -97,6 +91,7 @@ GERAIS
     margin-bottom: 30px; 
     font-family: 'Times New Roman', Times, serif;
 }
+
 
 .card {
     background: #fff;
@@ -113,9 +108,11 @@ GERAIS
     justify-content: space-between;
 }
 
+
 .card:hover {
     transform: scale(1.05);
 }
+
 
 .card img {
     width: 100%;
@@ -133,11 +130,13 @@ GERAIS
     margin: auto;
 }
 
+
 .card-body {
     font-size: 15px;
     margin-bottom: auto;
     font-family: sans-serif;
 }
+
 
 .card-text {
     font-size: 0.9rem;
@@ -146,10 +145,12 @@ GERAIS
     font-size: 20px;
 }
 
+
 .row {
     display: flex;
     flex-wrap: wrap;
 }
+
 
 .col-md-4 {
     display: flex;
@@ -157,8 +158,7 @@ GERAIS
     margin-bottom: 20px;
 }
 
-/* ------------------------------------------------------------------
-   Carrossel  */
+/*    Carrossel     */
 
 .carousel-item img {
     width: 100%;
@@ -167,20 +167,15 @@ GERAIS
     margin: 0;
  }
 
-/* ------------------------------------------------------------------
-   PAGINA DE CADASTRO 
 
-   Formulário  */
+/*    PAGINA DE CADASTRO    -   Formulário  */
 
 .cadastro {
     padding-top: 22px;
     padding-right: 50px;
-    
-    
 }
 
-/* 
-   Botão cadastro  */
+/*    Botão cadastro    */
 
 .btn-custom {
     background-color: #00ff1a;
@@ -212,8 +207,7 @@ GERAIS
     background-color: #b21f2d;
 }
 
-/* ----------------------------------------------------------------------
-   FOOTER                                           */
+/*       FOOTER                */
 
 .footer {
     margin-top: 30px;
@@ -244,8 +238,7 @@ GERAIS
 
 
 
-/* ------------------------------------------------------------------
-   Media Queries */
+/*     Media Queries       */
 
 @media (max-width: 767px) {
     .navbar {
