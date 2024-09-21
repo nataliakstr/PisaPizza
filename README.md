@@ -7,7 +7,7 @@
 
 ## Projeto feito para a aula de FrontEnd Estático (HTML e CSS) | Santander Coders 2024.1 
 
-### Objetivos
+#### Objetivos
 - Criar um cardápio/catálogo digital.
 - Incluir um título e uma descrição.
 - Adicionar produtos com imagem, nome e descrição.
