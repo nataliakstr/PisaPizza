@@ -5,7 +5,7 @@
 ![HTML](https://img.shields.io/badge/HTML-FF5722?style=flat-square&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-00A9E0?style=flat-square&logo=css3&logoColor=white)
 
-## Santander Coders 2024.1 | Front-End
+## Projeto feito para a aula de FrontEnd Estático (HTML e CSS) | Santander Coders 2024.1 
 
 ### Objetivos
 - Criar um cardápio/catálogo digital.
