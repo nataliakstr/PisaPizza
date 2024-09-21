@@ -18,7 +18,7 @@
 #### Extra
 - A página deve ser otimizada para SEO e acessibilidade.
 - A página deve incluir alguma estilização.
-<BR>
+
 
 #### Link do Projeto
 [Piza Pizza Project](https://nataliakstr.github.io/PizaPizza/)
