@@ -94,6 +94,21 @@
 }
 
 
+
+@media (max-width: 768px) {
+    .custom-heading {
+        font-size: 1.5rem; /* Tamanho menor para telas menores */
+    }
+}
+
+@media (max-width: 576px) {
+    .custom-heading {
+        font-size: 1rem; /* Tamanho ainda menor para telas muito pequenas */
+    }
+}
+
+
+
 .card {
     background: #fff;
     border: 1px solid #ddd;
@@ -300,10 +315,5 @@
 }
 
 
-.main-title-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
+
 
