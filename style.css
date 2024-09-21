@@ -1,0 +1,303 @@
+/* ------------------------------------------------------------------
+GERAIS 
+*/
+
+   body {
+    padding-top: 20px; 
+    background-color: #f3f0e7;
+    color: #343a40;
+    
+    
+}
+
+.welcome {          /* bem vindo, pagina inicial */
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 66px;
+}
+
+/* ------------------------------------------------------------------
+   NAVBAR                                               */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    z-index: 1000;
+}
+
+.navbar-dark {
+    background-color: #000 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.navbar-dark .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background: #fff !important;
+}
+
+/* ------------------------------------------------------------------
+  PAG SOBRE - NOSSA HISTORIA                */
+
+  #nossa-historia {
+    font-size: 2.5rem; 
+    color: #666; 
+    text-align: center; 
+    margin-top: 30px; 
+    margin-bottom: 30px; 
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+
+}
+
+.img-fluid {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin-bottom: 30px; 
+}
+
+
+#texto-familia {
+    font-style: italic;
+    font-size: 1.1rem; 
+    color: #666; 
+    line-height: 1.6;
+    margin-bottom: 30px; 
+    text-indent: 22px; 
+}
+
+
+
+
+
+
+/* ------------------------------------------------------------------
+ CARDAPIO                                       */
+
+
+  .custom-heading {
+    font-size: 2.5rem; 
+    font-style: italic;
+    color: #666; 
+    text-align: center; 
+    margin-top: 30px; 
+    margin-bottom: 30px; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1px;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 25px;
+    margin: auto;
+}
+
+.card-body {
+    font-size: 15px;
+    margin-bottom: auto;
+    font-family: sans-serif;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    font-family: unset; 
+    font-size: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-4 {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 20px;
+}
+
+/* ------------------------------------------------------------------
+   Carrossel  */
+
+.carousel-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    margin: 0;
+}
+
+/* ------------------------------------------------------------------
+   PAGINA DE CADASTRO 
+
+   Formulário  */
+
+.cadastro {
+    padding-top: 22px;
+    padding-right: 50px;
+    
+    
+}
+
+/* 
+   Botão cadastro  */
+
+.btn-custom {
+    background-color: #00ff1a;
+    border: 2px solid #1c902f;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 11px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-custom:hover {
+    background-color: #1c902f;
+    transform: scale(1.05);
+}
+
+.btn-custom:active {
+    transform: scale(0.95);
+}
+
+.btn-reset {
+    background-color: #dc3545;
+    border: 2px solid #b21f2d;
+}
+
+.btn-reset:hover {
+    background-color: #b21f2d;
+}
+
+/* ----------------------------------------------------------------------
+   FOOTER                                           */
+
+.footer {
+    margin-top: 30px;
+    background-color: #2d2f32ea;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #ddd;
+}
+
+.footer-icon {
+    width: 30px;
+    height: 30px; 
+    object-fit: cover; 
+}
+
+
+
+
+/* ------------------------------------------------------------------
+   Media Queries */
+
+@media (max-width: 767px) {
+    .navbar {
+        padding: 0.5rem; 
+    }
+
+    .card {
+        margin-bottom: 10px;
+    }
+
+    .card-title {
+        font-size: 18px; 
+    }
+
+    .card-body, .card-text {
+        font-size: 14px; 
+    }
+
+    .cadastro {
+        padding-right: 20px; 
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .card {
+        margin-bottom: 15px;
+    }
+
+    .card-title {
+        font-size: 22px; 
+    }
+
+    .card-body, .card-text {
+        font-size: 16px; 
+    }
+
+    .cadastro {
+        padding-right: 30px; 
+    }
+}
+
+@media (min-width: 1025px) {
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .card-title {
+        font-size: 25px; 
+    }
+
+    .card-body, .card-text {
+        font-size: 18px; 
+    }
+
+    .cadastro {
+        padding-right: 50px; 
+    }
+}
