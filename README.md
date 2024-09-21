@@ -1,5 +1,5 @@
 
-# Projeto Piza Pizza  🍕
+# Projeto Pisa Pizza  🍕
 
 
 ![HTML](https://img.shields.io/badge/HTML-FF5722?style=flat-square&logo=html5&logoColor=white)
@@ -21,7 +21,7 @@
 
 
 #### Link do Projeto
-[Piza Pizza Project](https://nataliakstr.github.io/PizaPizza/)
+[Pisa Pizza Project](https://nataliakstr.github.io/PizaPizza/)
 
 
 ------------
