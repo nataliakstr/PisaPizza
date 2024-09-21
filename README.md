@@ -15,12 +15,12 @@
 - Criar uma tabela de preços.
 - Adicionar um formulário de cadastro.
 
-#### EXTRA
+#### Extra
 - A página deve ser otimizada para SEO e acessibilidade.
 - A página deve incluir alguma estilização.
 <BR>
 
-#### LINK DO PROJETO 
+#### Link do Projeto
 [Piza Pizza Project](https://nataliakstr.github.io/PizaPizza/)
 
 
