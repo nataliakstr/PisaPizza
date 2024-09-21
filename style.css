@@ -8,8 +8,15 @@
 
 .welcome {          /* bem vindo, pagina inicial */
     font-family: 'Times New Roman', Times, serif;
+    font-size: 5vw;
     text-align: center;
     padding-top: 66px;
+}
+
+@media (max-width: 767px) {
+    .welcome {
+        font-size: 3rem; /* Valor mínimo para dispositivos menores */
+    }
 }
 
 /*  NAVBAR   */
