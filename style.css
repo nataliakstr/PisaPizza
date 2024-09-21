@@ -119,10 +119,13 @@ GERAIS
 
 .card img {
     width: 100%;
+    height: auto;
     border-bottom: 1px solid #ddd;
     border-radius: 8px;
     margin: auto;
 }
+
+
 
 .card-title {
     font-weight: bold;
@@ -159,10 +162,10 @@ GERAIS
 
 .carousel-item img {
     width: 100%;
-    height: 500px;
+    height: auto;
     object-fit: cover;
     margin: 0;
-}
+ }
 
 /* ------------------------------------------------------------------
    PAGINA DE CADASTRO 
